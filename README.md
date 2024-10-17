@@ -5,10 +5,6 @@ The goal of this project was to design a proof of concept ecommerce web applicat
 * Users should be able to login, register, browse collections, add items to cart, and checkout, among other features.
 * Users data (profile, cart, favorites, etc) is saved to database through auth token
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Built With
 Back End:
 * MongoDB Atlas
