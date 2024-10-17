@@ -34,7 +34,7 @@ const Footer = () => {
           <FooterListTitle title="osiris origins" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-              midwest gothic x midnight iron
+              midwest gothic x dark noir
             </p>
             <ul className="flex items-center gap-2">
               <a

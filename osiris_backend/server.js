@@ -16,7 +16,7 @@ app.use(express.json());
 // product middleware
 app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/cart", require("./routes/cartRoutes"));
-
+app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHandler);
 
 app.listen(port, () => {
