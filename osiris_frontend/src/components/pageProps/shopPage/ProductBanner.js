@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BsGridFill } from "react-icons/bs";
-import { ImList } from "react-icons/im";
 import { GoTriangleDown } from "react-icons/go";
+import { ImList } from "react-icons/im";
 
 const ProductBanner = ({ itemsPerPageFromBanner }) => {
   //   const [selected, setSelected] = useState("");
@@ -51,7 +51,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
                             Left Part End here
         ======================================================== */}
       {/* =========================================================
-                            Right Part STart here
+                            Right Part Start here
         ======================================================== */}
       <div className="flex items-center gap-2 md:gap-6 mt-4 md:mt-0">
         <div className="flex items-center gap-2 text-base text-[#767676] relative">

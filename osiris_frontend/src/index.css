@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,22 +13,17 @@
   }
 }
 
-/* ============= NavLink active Start here ============== */
+/* NavLink active */
 nav .active li {
   color: black;
-  font-weight: 600;
-  text-decoration: 1px underline black;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 665px) {
   nav .active li {
     color: white;
     font-weight: 600;
+    text-shadow: 10cap;
     text-decoration: 1px underline white;
   }
 }
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-/* ============= NavLink active End here ================ */

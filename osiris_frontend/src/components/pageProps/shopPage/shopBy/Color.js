@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import { motion } from "framer-motion";
+import React, { useState } from "react";
 import NavTitle from "./NavTitle";
 
 const Color = () => {
@@ -7,28 +7,23 @@ const Color = () => {
   const colors = [
     {
       _id: 9001,
-      title: "Green",
-      base: "#22c55e",
+      title: "Shadow",
+      base: "#000000",
     },
     {
       _id: 9002,
-      title: "Gray",
-      base: "#a3a3a3",
+      title: "Blood",
+      base: "#FF5733",
     },
     {
       _id: 9003,
-      title: "Red",
-      base: "#dc2626",
+      title: "Bone",
+      base: "#F2EBE3 ",
     },
     {
       _id: 9004,
-      title: "Yellow",
-      base: "#f59e0b",
-    },
-    {
-      _id: 9005,
-      title: "Blue",
-      base: "#3b82f6",
+      title: "Steel",
+      base: "#71797E",
     },
   ];
 
@@ -38,7 +33,7 @@ const Color = () => {
         onClick={() => setShowColors(!showColors)}
         className="cursor-pointer"
       >
-        <NavTitle title="Shop by Color" icons={true} />
+        <NavTitle title="Shades" icons={true} />
       </div>
       {showColors && (
         <motion.div

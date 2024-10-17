@@ -33,7 +33,7 @@ export const osirisSlice = createSlice({
         item.quantity++;
       }
     },
-    drecreaseQuantity: (state, action) => {
+    decreaseQuantity: (state, action) => {
       const item = state.products.find(
         (item) => item._id === action.payload._id
       );
@@ -57,7 +57,7 @@ export const osirisSlice = createSlice({
 export const {
   addToCart,
   increaseQuantity,
-  drecreaseQuantity,
+  decreaseQuantity,
   deleteItem,
   resetCart,
 } = osirisSlice.actions;
