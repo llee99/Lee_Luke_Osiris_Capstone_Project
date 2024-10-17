@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { emptyCart } from "../../assets/images/index";
+import { emptyCart } from "../../assets/index";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 import { resetCart } from "../../redux/osirisSlice";
 import ItemCard from "./ItemCard";

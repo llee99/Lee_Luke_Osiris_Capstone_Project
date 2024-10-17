@@ -4,7 +4,7 @@ import {
   bannerImgOne,
   bannerImgThree,
   bannerImgTwo,
-} from "../../assets/images";
+} from "../../assets/index";
 import Image from "../designLayouts/Image";
 
 const Banner = () => {

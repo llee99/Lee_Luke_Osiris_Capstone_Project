@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { osiris_light } from "../../assets/images";
+import { osiris_light } from "../../assets/index";
 
 const SignIn = () => {
   // ============= Initial State Start here =============

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { paymentCard } from "../../../assets/images";
+import { paymentCard } from "../../../assets/index";
 import Image from "../../designLayouts/Image";
 import FooterListTitle from "./FooterListTitle";
 

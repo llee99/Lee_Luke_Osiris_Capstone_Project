@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { logo, osiris_light } from "../../../assets/images";
+import { logo, osiris_light } from "../../../assets/index";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
 import Image from "../../designLayouts/Image";

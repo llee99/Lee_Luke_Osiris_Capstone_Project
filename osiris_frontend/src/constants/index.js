@@ -1,4 +1,4 @@
-import { } from "../assets/images/index";
+import { ethOSTshirt } from "../assets/index";
 
 // =================== NavBarList Start here ====================
 export const navBarList = [
@@ -30,9 +30,10 @@ export const navBarList = [
 export const paginationItems = [
   {
     _id: 1001,
-    productName: "Cap for Boys",
+    img: ethOSTshirt,
+    productName: "Ethereal Oversized T-Shirt",
     price: "35.00",
-    color: "Blank and White",
+    color: "Black and White",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
