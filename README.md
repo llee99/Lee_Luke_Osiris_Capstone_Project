@@ -10,7 +10,7 @@ Back End:
 * MongoDB Atlas
 * Express with Mongoose, bcrypt, jwt, cors
 * GET /api/cart api/product/:id
-* POST /api/cart api/product/:id
+* POST /api/cart api/register api/login api/current api/product/:id 
 * PUT api/product/:id
 * DELETE /api/product:id
 
