@@ -7,9 +7,9 @@ import logo from "./osirisLogo.png";
 import paymentCard from "./payment.png";
 
 import ethOSTshirt from "./delicate.png";
-
+import crcOSTshirt from "./thorns.webp";
 export {
-    bannerImgOne, bannerImgThree, bannerImgTwo, emptyCart, ethOSTshirt, logo,
+    bannerImgOne, bannerImgThree, bannerImgTwo, crcOSTshirt, emptyCart, ethOSTshirt, logo,
     osiris_light, paymentCard
 };
 

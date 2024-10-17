@@ -1,4 +1,4 @@
-import { ethOSTshirt } from "../assets/index";
+import { crcOSTshirt, ethOSTshirt } from "../assets/index";
 
 // =================== NavBarList Start here ====================
 export const navBarList = [
@@ -35,8 +35,16 @@ export const paginationItems = [
     price: "35.00",
     color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "berserker armor",
   },
-  
+  {
+    _id: 1002,
+    img: crcOSTshirt,
+    productName: "Crucible Oversized T-Shirt",
+    price: "35.00",
+    color: "Red and White",
+    badge: true,
+    des: "boiler room",
+  },
 ];
 // =================== PaginationItems End here =================
