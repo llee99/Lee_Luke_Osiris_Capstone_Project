@@ -10,14 +10,22 @@ The goal of this project was to design a proof of concept ecommerce web applicat
 
 
 ### Built With
+Back End:
+* MongoDB Atlas
+* Express with Mongoose, bcrypt, jwt, cors
+* GET /api/cart api/product/:id
+* POST /api/cart api/product/:id
+* PUT api/product/:id
+* DELETE /api/product:id
 
-* [![React][React.js]][React-url]
+Front End:
+* React, React Router Dom, Redux
+* Tailwind CSS classes
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
-Please use the following link to clone this project: [[link](https://github.com/llee99/Lee_Luke_Osiris_Capstone_Project.git)]
+Please use the following link to clone this project: https://github.com/llee99/Lee_Luke_Osiris_Capstone_Project.git
 
 Once downloaded, navigate to /osiris_frontend and run "npm start" in the terminal
 
