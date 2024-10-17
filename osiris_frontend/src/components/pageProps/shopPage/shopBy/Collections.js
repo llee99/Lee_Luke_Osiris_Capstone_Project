@@ -14,6 +14,7 @@ const Category = () => {
     {
       _id: 991,
       title: "Crucible",
+      icons: true,
     },
     {
       _id: 992,

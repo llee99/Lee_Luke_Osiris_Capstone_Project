@@ -6,10 +6,12 @@ import osiris_light from "./osiris_light.png";
 import logo from "./osirisLogo.png";
 import paymentCard from "./payment.png";
 
+import btrOSTshirt from "./butterfly.png";
 import ethOSTshirt from "./delicate.png";
 import crcOSTshirt from "./thorns.webp";
+
 export {
-    bannerImgOne, bannerImgThree, bannerImgTwo, crcOSTshirt, emptyCart, ethOSTshirt, logo,
+    bannerImgOne, bannerImgThree, bannerImgTwo, btrOSTshirt, crcOSTshirt, emptyCart, ethOSTshirt, logo,
     osiris_light, paymentCard
 };
 

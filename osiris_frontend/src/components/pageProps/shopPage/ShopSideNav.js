@@ -1,13 +1,13 @@
 import React from "react";
 import Brand from "./shopBy/Brand";
-import Category from "./shopBy/Category";
+import Collections from "./shopBy/Collections";
 import Color from "./shopBy/Color";
 import Price from "./shopBy/Price";
 
 const ShopSideNav = () => {
   return (
     <div className="w-full flex flex-col gap-6">
-      <Category icons={false} />
+      <Collections icons={false} />
       <Color />
       <Brand />
       <Price />

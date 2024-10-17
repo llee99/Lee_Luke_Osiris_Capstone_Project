@@ -1,4 +1,4 @@
-import { crcOSTshirt, ethOSTshirt } from "../assets/index";
+import { btrOSTshirt, crcOSTshirt, ethOSTshirt } from "../assets/index";
 
 // =================== NavBarList Start here ====================
 export const navBarList = [
@@ -32,7 +32,7 @@ export const paginationItems = [
     _id: 1001,
     img: ethOSTshirt,
     productName: "Ethereal Oversized T-Shirt",
-    price: "35.00",
+    price: "25.00",
     color: "Black and White",
     badge: true,
     des: "berserker armor",
@@ -41,10 +41,19 @@ export const paginationItems = [
     _id: 1002,
     img: crcOSTshirt,
     productName: "Crucible Oversized T-Shirt",
-    price: "35.00",
+    price: "25.00",
     color: "Red and White",
     badge: true,
     des: "boiler room",
+  },
+  {
+    _id: 1003,
+    img: btrOSTshirt,
+    productName: "Hades Oversized T-Shirt",
+    price: "25.00",
+    color: "Blue and White",
+    badge: true,
+    des: "fly",
   },
 ];
 // =================== PaginationItems End here =================
